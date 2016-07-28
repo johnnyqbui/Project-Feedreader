@@ -4,9 +4,18 @@ This is Udacity's Project Feed Reader Testing. This project incorporates use of 
 
 # How to run application
 
-* Click link at top or [this]()
+* Clone project repo:
 
-* Clone project repo or download and unzip, then open index.html with browser
+```sh
+$ git clone https://github.com/johnnyqbui/Project-Feedreader.git
+
+```
+
+then open index.html with browser
+
+or
+
+Download zipped files and unzip to desired location, then open index.html with browser
 
 ## Jasmine tests:
 
