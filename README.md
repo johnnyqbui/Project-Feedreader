@@ -13,9 +13,11 @@ $ git clone https://github.com/johnnyqbui/Project-Feedreader.git
 
 then open index.html with browser
 
+
 or
 
-Download zipped files and unzip to desired location, then open index.html with browser
+
+* Download zipped files and unzip to desired location, then open index.html with browser
 
 ## Jasmine tests:
 
@@ -26,3 +28,7 @@ Download zipped files and unzip to desired location, then open index.html with b
 * there is at least one entry in the feed container
 
 * when new feed loads, the contents inside feed container changes
+
+### Jasmine testing results:
+
+* The results of the tests are displayed at the bottom of the page.
