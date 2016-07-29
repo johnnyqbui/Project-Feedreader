@@ -109,9 +109,13 @@ $(function() {
          */
 
         // Run loadFeed function to obtain first feed content
-        loadFeed(0, function() {
-            stored1 = $('.feed a').children('.entry').text();
+        beforeEach(function(done) {
+            loadFeed(0, function() {
+                stored1 = $('.feed a').children('.entry').text();
+                done();
+            });
         });
+
 
         it('changed contents in DOM', function(done) {
             // Run loadFeed function again to obtain second feed content
